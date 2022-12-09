@@ -4,4 +4,8 @@
 
 **_Front end developer_**
 
-**Discord:**Dmytro(@dmstepanuik)
+**Discord:** Dmytro(@dmstepanuik)
+
+**E-mail:** dmytro_83@ukr.net
+
+**Phone:** +380669218646
