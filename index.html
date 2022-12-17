@@ -8,24 +8,25 @@
     <link rel="stylesheet" href="./style.css" >
   </head>
   <body>
+    <!-- header&links -->
     <header>
       <div class="container">
         <nav>
           <ul>
-            <li><a href="#">About myself</a></li>
-            
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Languages</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Education</a></li>
+            <li><a href="#about">About myself</a></li>
+            <li><a href="#soft skills">Skills</a></li>
+            <li><a href="#code">Code</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#education">Education</a></li>
           </ul>
         </nav>
-
       </div>
-    </header>
+      </header>
     <div class="container">
       <div class="foto">
-        <img src="./CV.jpg" alt="user foto" width="100">
+        <img src="./img/CV.jpg" alt="user foto" width="100">
       </div>
       <h1>Dmytro Stepanuik</h1>
       <p>Front-End Developer</p>
@@ -38,7 +39,7 @@
         <li>Location:Ukraine, Kharkov</li>
       </section>
       <!-- about -->
-      <section class="about">
+      <section id="about" class="about">
       <h2>About myself</h2>
       <p>An attentive and meticulous Fronted developer 
         is looking for a full-time job at a company that 
@@ -47,7 +48,7 @@
         fo fun.</p>
       </section>
       <!-- Soft skills -->
-      <section class="Soft skills">
+      <section id="Soft skills" class="Soft skills">
         <h2>Soft skills</h2>
       <ul>
       <li>Teamwork</li>
@@ -56,7 +57,7 @@
       </ul>      
       </section>
       <!-- Tech skills -->
-      <section class="Tech skills">
+      <section id="Tech skills" class="Tech skills">
         <h2>Tech skills</h2>
       <ul>
       <li>HTML/CSS3/SASS</li>
@@ -67,32 +68,54 @@
       <li>WebPack</li>
       </ul>
       </section>
+      <!-- code -->
+      <section id="code" class="code">
+        <h2>Code example</h2>
+        <code>
+        function multiply(a,b){
+        return (a\*b)};
+        </code>
+      </section>
+      <!-- projects -->
+      <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li><a href="WebStudio">https://dmstepanuik.github.io/goit-markup-homework-8/</a></li>
+          <li><a href="Ice-cream">https://ihorsaievych.github.io/ice-cream-ciss/</a></li>
+          <li><a href="Event-Booster">https://nikolaylemehov.github.io/team-js/</a></li>
+        </ul>
+      </section>
       <!-- languages -->
-      <section class="languages">
+      <section id="languages" class="languages">
         <h2>Languages</h2>
         <ul>
-          <li>English</li>
-          <li>Ukrainian</li>
-          <li>Russian</li>
+          <li>English- Pre Intermediate</li>
+          <li>Ukrainian - Native</li>
+          <li>Russian - Native</li>
         </ul>
       </section>
       <!-- Work -->
-      <section class="work">
+      <section id="work" class="work">
         <h2>Work Experience</h2>
         <ul>
-          <li>Telecom Company "Vodafone" (2022)
+          <li>Telecom Company "Vodafone"<span> | </span> 2022
           <p>database: analytics</p>   
           <p>information security and protection</p>
           </li>
-          <li>Logistic copmany "NovaPoshta"(2018)
+          <li>Logistic copmany "NovaPoshta"<span> | </span> 2018
             <p>work with control systems</p>
           </li>        
         </ul>
       </section>
       <!-- Education -->
-      <section class="education">
-
-
+      <section id="education" class="education">
+        <h2>Education</h2>
+         <ul>
+        <li>Ukraine State University of Railway Transport <span> | </span> Kharkov <span> | </span> 2003</li>
+        <li>Kharkov Natioanal Pedagogical University <span> | </span> Kharkov <span> | </span> 2012</li>
+        <li>City Buisiness School <span> | </span> London <span> | </span> 2019</li>
+        <li>IT School GO IT <span> | </span> Kiev <span> | </span> 2022</li>
+        </ul>
       </section>
 
     </div>
@@ -101,10 +124,5 @@
   </body>
 </html>
 
-<!-- <section class="code">
-          <h2>Code examle</h2>
-          <p> Codewars: function multiply(a,b){
-                        return (a\*b)
-                        };</p>
-        </section> -->
+
   
