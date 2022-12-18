@@ -2,7 +2,7 @@
 
 **Name:** Dmytro Stepanuik;
 
-**_Front end developer_**;
+**_Front-End Developer_**;
 
 **Discord:** Dmytro(@dmstepanuik);
 
@@ -28,4 +28,7 @@ return (a\*b)
 
 **Education:** Ukraine State University of Railway Transport (Kharkov),2003; Kharkov Natioanal Pedagogical University (Kharvov),2012; City Buisiness School (London),2019; IT School GO IT (Kiev),2022.;
 
-**Project experience** WebStudio (https://github.com/dmstepanuik/goit-markup-homework-8); Ice-Cream(https://ihorsaievych.github.io/ice-cream-ciss/); Event-Booster (https://github.com/NikolayLemehov/team-js).;
+**Project experience** 
+WebStudio (https://github.com/dmstepanuik/goit-markup-homework-8); 
+Ice-Cream(https://ihorsaievych.github.io/ice-cream-ciss/); 
+Event-Booster (https://github.com/NikolayLemehov/team-js).;
